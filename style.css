@@ -19,7 +19,7 @@ header {
     overflow: hidden;
     box-sizing: border-box;
     padding: 0 20px;
-    box-shadow: 0px 0px 12px #fcdb56;
+    box-shadow: 0px 0px 10px #fcdb5690;
     position: fixed;
 }
 
@@ -75,7 +75,9 @@ header {
     justify-content: center;
     text-align: center;
     text-wrap: wrap;
-    margin-top: 170px;
+    margin-top: 10rem;
+    text-shadow: 0px 0px 3px #fcdb56;
+    font-family: 'Lora', serif;
 }
 
 main {
@@ -85,6 +87,13 @@ main {
 
 img {
     width: 100%;
+}
+
+.imagens {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .itens {
@@ -103,7 +112,19 @@ img {
     align-items: center;
     padding: 20px;
     border: 1px solid #ccc;
+    background-color: #181616;
     border-radius: 10px;
-    margin-top: 4rem;
+    margin-top: 1rem;
     justify-content: center;
+}
+
+.info {
+    color: #fce382;
+    font-size: 1.2rem;
+}
+
+.h2 {
+    color: #D4AF37;
+    font-family: 'Playfar Display' serif;
+    font-size: 30px;
 }
